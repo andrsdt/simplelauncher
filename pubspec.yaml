@@ -1,0 +1,26 @@
+name: simplelauncher
+description: An android launcher
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^3.2.0
+  google_fonts: ^0.3.10
+  equatable: ^1.1.1
+  shared_preferences: any
+  flutter_colorpicker: ^0.3.2
+  device_apps: ^1.0.9
+  battery: ^0.3.1+9
+  positioned_tap_detector: ^1.0.3
+  intl: ^0.16.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
